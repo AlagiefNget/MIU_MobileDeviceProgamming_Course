@@ -1,0 +1,90 @@
+[
+    {
+        "name":"Programming Languages",
+        "skills": [
+            "Kotlin",
+            "Java Android",
+            "Reactjs",
+            "Ruby on Rails",
+            "JavaScript",
+            "Nodejs",
+            "Typescript"
+        ]
+    },
+    {
+        "name":"APIs",
+        "skills": [
+            "RESTful APIs",
+            "Microservices"
+        ]
+    },
+    {
+        "name":"Technical Tools",
+        "skills": [
+            "Git",
+            "GitHub",
+            "Docker",
+            "Kubernetes",
+            "Jest",
+            "Mockito",
+            "JUnit",
+            "JasperSoft Studio",
+            "Kafka",
+            "Swagger",
+            "Elasticsearch",
+            "StarUML"
+        ]
+    },
+    {
+        "name":"Third party Libraries",
+        "skills": [
+            "Retrofit",
+            "Gson",
+            "Dagger",
+            "Picasso",
+            "Coroutines"
+        ]
+    },
+    {
+        "name":"Google APIs",
+        "skills": [
+            "Firebase",
+            "Firebase Cloud Messaging",
+            "Location Services",
+            "Google Maps",
+            "Google Places",
+            "Geo Location",
+            "Google Calendar",
+            "Google Analytics"
+        ]
+    },
+    {
+        "name":"Best Practices and Guidelines",
+        "skills": [
+            "SOLID Principles",
+            "Design Pattern",
+            "MVC and MVVM for data structure",
+            "UI/UX",
+            "Material Design",
+            "Unit Testing",
+            "TDD (Test-driven development)"
+        ]
+    },
+    {
+        "name":"Support Tools",
+        "skills": [
+            "JIRA",
+            "Slack",
+            "Trello",
+            "MS Office",
+            "MS Teams"
+        ]
+    },
+    {
+        "name":"Agile Frameworks",
+        "skills": [
+            "Kanban",
+            "Scrum"
+        ]
+    }
+]

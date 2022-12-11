@@ -1,0 +1,18 @@
+{
+    "address": {
+        "city":"Austin",
+        "country":"USA",
+        "street":"13301 Center Lake Dr"
+    },
+    "email":"alagie10@gmail.com",
+    "name":"Alagie F Nget",
+    "job_title":"Full Stack Engineer",
+    "permission":"W2 (Work Permit)",
+    "phone":"+1(641) 233-2427",
+    "profile":"Skilled Software Engineer with 4 years of combined experience contributing to full development lifecycle using Java, Node, Express, React, and Ruby on Rails. \n\nAdept at front-end and back-end development using Java, Ruby on Rails. Java Script, and Reactjs, working closely with teams to ensure timely and quality deliverables in alignment with specifications. \n\nDedicated to developing, expanding, and optimizing user experience.",
+    "links": [
+        { "name":"LinkedIn", "link":"https://www.linkedin.com/in/alagiefnget/" },
+        { "name":"GitHub", "link":"https://github.com/AlagiefNget" }
+    ],
+    "image":"https://avatars.githubusercontent.com/u/36819579?s=400&u=e7744b4e64c202715818620c4cfd9aa682186b3c&v=4"
+}

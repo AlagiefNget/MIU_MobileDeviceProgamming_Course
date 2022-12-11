@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_details"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/txv_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/details"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txv_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:singleLine="true"
+                    android:text="@tools:sample/lorem[6]"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/txv_details"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/img_phone"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginEnd="4dp"
+                    android:contentDescription="@string/image_description"
+                    android:src="@android:drawable/stat_sys_phone_call"
+                    android:tint="@android:color/black"
+                    app:layout_constraintBottom_toBottomOf="@+id/txv_phone"
+                    app:layout_constraintEnd_toStartOf="@+id/txv_phone"
+                    app:layout_constraintTop_toTopOf="@+id/txv_phone" />
+
+                <TextView
+                    android:id="@+id/txv_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@tools:sample/us_phones[0]"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toStartOf="@+id/txv_hifen"
+                    app:layout_constraintStart_toStartOf="@+id/txv_address"
+                    app:layout_constraintTop_toBottomOf="@+id/txv_address" />
+
+                <TextView
+                    android:id="@+id/txv_hifen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/hyphen"
+                    app:layout_constraintBottom_toBottomOf="@+id/txv_phone"
+                    app:layout_constraintEnd_toStartOf="@+id/txv_stamp"
+                    app:layout_constraintStart_toEndOf="@+id/txv_phone"
+                    app:layout_constraintTop_toTopOf="@+id/txv_phone" />
+
+                <TextView
+                    android:id="@+id/txv_stamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@tools:sample/lorem[3]"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/txv_phone"
+                    app:layout_constraintEnd_toEndOf="@+id/txv_address"
+                    app:layout_constraintStart_toEndOf="@+id/txv_hifen"
+                    app:layout_constraintTop_toTopOf="@+id/txv_phone" />
+
+                <ImageView
+                    android:id="@+id/img_email"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginEnd="4dp"
+                    android:contentDescription="@string/image_description"
+                    android:src="@drawable/ic_email"
+                    app:layout_constraintBottom_toBottomOf="@+id/txv_email"
+                    app:layout_constraintEnd_toStartOf="@+id/txv_email"
+                    app:layout_constraintTop_toTopOf="@+id/txv_email" />
+
+                <TextView
+                    android:id="@+id/txv_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="lorem@ipsum.dolor"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@+id/txv_address"
+                    app:layout_constraintStart_toStartOf="@+id/txv_address"
+                    app:layout_constraintTop_toBottomOf="@+id/txv_hifen" />
+
+                <TextView
+                    android:id="@+id/txv_links"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/links"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/img_email" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_links"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txv_links"
+                    tools:listitem="@layout/item_link" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraint_details">
+
+                <TextView
+                    android:id="@+id/txv_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txv_profile_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@tools:sample/lorem[200]"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txv_profile" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

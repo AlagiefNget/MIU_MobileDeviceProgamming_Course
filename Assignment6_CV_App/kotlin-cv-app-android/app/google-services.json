@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "905411450931",
+    "firebase_url": "https://cv-app-android.firebaseio.com",
+    "project_id": "cv-app-android",
+    "storage_bucket": "cv-app-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905411450931:android:d01e7af46e0ec887a7eb46",
+        "android_client_info": {
+          "package_name": "com.danielvilha.cvappandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905411450931-a9l8pm2bj27ac41g9vqhvmrlbtc18f42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9S3CFJUESh-EtFeviPRvkeUpiMWkC-l8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905411450931-a9l8pm2bj27ac41g9vqhvmrlbtc18f42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

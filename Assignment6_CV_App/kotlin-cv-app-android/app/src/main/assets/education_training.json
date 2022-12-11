@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Maharishi International University",
+        "degree":"MSc Computer Science",
+        "course":"Systems Analysis and Development",
+        "date":{
+            "start":"2022-01-24",
+            "end":"-"
+        }
+    },
+    {
+        "name":"Mohammed V University",
+        "degree":"BSc Computer Science",
+        "course":"General English",
+        "date":{
+            "start":"2014-09-01",
+            "end":"2018-08-15"
+        }
+    }
+]

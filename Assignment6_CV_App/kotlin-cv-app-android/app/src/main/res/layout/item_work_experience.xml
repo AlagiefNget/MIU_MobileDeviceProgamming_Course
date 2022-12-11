@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <TextView
+        android:id="@+id/txv_career_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@tools:sample/lorem[5]" />
+
+    <TextView
+        android:id="@+id/txv_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txv_career_name"
+        app:layout_constraintStart_toStartOf="@+id/txv_career_name"
+        app:layout_constraintTop_toBottomOf="@+id/txv_career_name"
+        tools:text="June 2020 - June 2020" />
+
+    <TextView
+        android:id="@+id/txv_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txv_career_name"
+        app:layout_constraintStart_toStartOf="@+id/txv_career_name"
+        app:layout_constraintTop_toBottomOf="@+id/txv_date"
+        tools:text="@tools:sample/lorem[35]" />
+
+    <TextView
+        android:id="@+id/txv_description_points"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txv_career_name"
+        app:layout_constraintStart_toStartOf="@+id/txv_career_name"
+        app:layout_constraintTop_toBottomOf="@+id/txv_description"
+        tools:text="@tools:sample/lorem[35]" />
+
+    <TextView
+        android:id="@+id/txv_technical_skills_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/technical_skills"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/txv_career_name"
+        app:layout_constraintStart_toStartOf="@+id/txv_career_name"
+        app:layout_constraintTop_toBottomOf="@+id/txv_description_points" />
+
+    <TextView
+        android:id="@+id/txv_technical_skills"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txv_career_name"
+        app:layout_constraintStart_toStartOf="@+id/txv_career_name"
+        app:layout_constraintTop_toBottomOf="@+id/txv_technical_skills_text"
+        tools:text="@tools:sample/lorem[20]" />
+
+    <TextView
+        android:id="@+id/txv_key_achievements_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/key_achievements"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/txv_career_name"
+        app:layout_constraintStart_toStartOf="@+id/txv_career_name"
+        app:layout_constraintTop_toBottomOf="@+id/txv_technical_skills" />
+
+    <TextView
+        android:id="@+id/txv_key_achievements"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txv_career_name"
+        app:layout_constraintStart_toStartOf="@+id/txv_career_name"
+        app:layout_constraintTop_toBottomOf="@+id/txv_key_achievements_text"
+        tools:text="@tools:sample/lorem[20]" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/black80"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_key_achievements">
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

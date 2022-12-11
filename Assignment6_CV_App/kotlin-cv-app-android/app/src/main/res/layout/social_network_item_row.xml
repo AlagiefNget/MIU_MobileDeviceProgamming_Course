@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <TextView
+        android:id="@+id/tvSocialNetworkName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20sp"
+
+        android:textStyle="bold"
+        android:textColor="@color/title1"
+        tools:text="@tools:sample/lorem[5]" />
+
+    <TextView
+        android:id="@+id/tvSocialNetworkLink"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btnCopyLink"
+        android:text="@tools:sample/lorem[5]"
+        android:autoLink="web"
+        android:textColor="@color/title2"
+        app:layout_constraintTop_toBottomOf="@+id/tvSocialNetworkName" />
+
+    <ImageButton
+        android:id="@+id/btnCopyLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="?attr/actionModeCopyDrawable"
+        app:layout_constraintBottom_toBottomOf="@id/tvSocialNetworkLink"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvSocialNetworkLink"
+        android:layout_marginLeft="10dp"
+        android:background="@color/transparent"
+        app:tint="@color/details" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

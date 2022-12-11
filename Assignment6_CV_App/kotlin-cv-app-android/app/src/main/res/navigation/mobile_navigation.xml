@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home" >
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.anget.cvappandroid.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_career_history"
+        android:name="com.anget.cvappandroid.ui.work.WorkExperienceFragment"
+        android:label="@string/menu_work_history"
+        tools:layout="@layout/fragment_work_experience" />
+
+    <fragment
+        android:id="@+id/nav_technical_skills"
+        android:name="com.anget.cvappandroid.ui.about_me.AboutMeFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about_me" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.anget.cvappandroid.ui.contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
+
+</navigation>

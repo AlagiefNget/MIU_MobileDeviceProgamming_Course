@@ -1,0 +1,129 @@
+[
+  {
+    "role":"Team Lead",
+    "company":"InSIST Global",
+    "address": {
+      "city":"Serekunda",
+      "country":"Gambia",
+      "street":"Kairaba Avenue"
+    },
+    "date": {
+      "start":"2021-01-01",
+      "end":"2022-08-19"
+    },
+    "description":"InSIST Global provides a scalable, flexible cloud-based business management solutions with a suite of complimentary mobile apps to help SMBs optimise their processes and increase cash flow.\n\nResponsible for creating and maintaining the apps for solutions business management and service sales using React, Ruby on Rails, and other related technologies.\n",
+    "description_points":[
+      "Designed architecture of two major projects for The Ministry of Higher Education, Research, Science & Technology of The Gambia – focusing on improving quality of education and school management nationwide.",
+      "Increased business software application user base 15% by recommending features improvements to address needs of potential users.",
+      "Analyzed and troubleshot technical issues, resolving cases related to bugs and errors within one day.",
+      "Led 5-member team in front-end and back-end development, ensuring timely and quality completion of complex projects."
+    ],
+    "technical_skills":[
+      "React",
+      "Spring Boot",
+      "Ruby on Rails",
+      "GIT",
+      "Jaspersoft Studio",
+      "Metabase",
+      "Kubernetes",
+      "Docker",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "Java",
+      "Nginx",
+      "IntelliJ IDEA",
+      "Ubuntu",
+      "MaterialUI",
+      "StarUML",
+      "Tomcat Server"
+    ],
+    "key_achievements":[
+      "Received appraisal after the completion of the project",
+      "Saw other members of the team I lead being promoted"
+    ]
+  },
+  {
+    "role":"Software Engineer",
+    "company":"InSIST Global",
+    "address": {
+      "city":"Serekunda",
+      "country":"Gambia",
+      "street":"Kairaba Avenue"
+    },
+    "date": {
+      "start":"2019-01-01",
+      "end":"2021-01-01"
+    },
+    "description":"Played key role in back-end and front-end software development / implementation.",
+    "description_points":[
+      "Excellent scoping and estimating skills.",
+      "Developed and delivered an app quickly.",
+      "Committed to the customer experience, design and flows.",
+      "Created reports and analytics dashboards – including administrative features.",
+      "Trained and mentored interns."
+    ],
+    "technical_skills":[
+      "React",
+      "Spring Boot",
+      "Ruby on Rails",
+      "GIT",
+      "Jaspersoft Studio",
+      "Metabase",
+      "Kubernetes",
+      "Docker",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "Java",
+      "Nginx",
+      "IntelliJ IDEA",
+      "Ubuntu",
+      "MaterialUI",
+      "StarUML",
+      "Tomcat Server"
+    ],
+    "key_achievements":[
+      "Contributed to development of software tool for businesses with 5,000+ users.",
+      "Built loan module of business software application"
+    ]
+  },
+  {
+    "role":"Software Engineer Intern",
+    "company":"InSIST Global",
+    "address": {
+      "city":"Serekunda",
+      "country":"Gambia",
+      "street":"Kairaba Avenue"
+    },
+    "date": {
+      "start":"2018-09-01",
+      "end":"2019-01-01"
+    },
+    "description":"Played key role in back-end and front-end software development / implementation.",
+    "description_points":[
+      "Agile Kanban/Scrum environment.",
+      "Created reports and analytics dashboards – including administrative features.",
+      "Troubleshot, debugged, and upgraded existing software."
+    ],
+    "technical_skills":[
+      "Scrum",
+      "React",
+      "Spring Boot",
+      "Ruby on Rails",
+      "GIT",
+      "Jaspersoft Studio",
+      "Metabase",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "Java",
+      "IntelliJ IDEA",
+      "Ubuntu",
+      "StarUML"
+    ],
+    "key_achievements":[
+      "I worked on the documentation of certain projects, meet with customers to train them. This earn me a permanent role as a Software Engineer at InSIST Global."
+    ]
+  }
+]
