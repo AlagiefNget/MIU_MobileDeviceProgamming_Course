@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".QuizQuestionsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingVertical="32dp"
+        android:paddingHorizontal="16dp"
+        >
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            tools:text="What does country this flag belongs to?"
+            android:textSize="28sp"
+            android:paddingHorizontal="20dp"
+            android:textColor="#333333"
+            android:layout_marginBottom="30dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical">
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:min="0"
+                android:max="10"
+                android:minHeight="50dp"
+                android:progress="1"
+                android:indeterminate="false"
+                android:layout_marginRight="16dp"
+                android:progressTint="@color/purple_700"
+                android:progressBackgroundTint="@color/purple_200"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                />
+
+            <TextView
+                android:id="@+id/tvProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/10"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/optionOne"
+            style="@style/toggleButton"
+            tools:text="SQLite"
+            />
+
+        <TextView
+            android:id="@+id/optionTwo"
+            style="@style/toggleButton"
+            tools:text="LocationManager"
+            />
+
+        <TextView
+            android:id="@+id/optionThree"
+            style="@style/toggleButton"
+            tools:text="open"
+            />
+
+        <TextView
+            android:id="@+id/optionFour"
+            style="@style/toggleButton"
+            tools:text="Dalvik Byte Code"
+            />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_marginTop="30dp"
+            android:textSize="18dp"
+            android:paddingVertical="10dp"
+            />
+    </LinearLayout>
+</ScrollView>
